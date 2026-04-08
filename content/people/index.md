@@ -1,5 +1,5 @@
 ---
-title: People
+title: Groups
 date: 2026-04-24
 
 type: landing
