@@ -14,7 +14,7 @@ sections:
       text: |
         <br>
         
-        **Nanjing University AeroSafe Laboratory** is a leading research lab focusing on aviation safety, artificial intelligence, and system reliability. Founded in 2018, we specialize in aircraft health management, Prognostics and Health Management (PHM), and AI applications in aviation safety.
+        **Nanjing University AeroSafe Laboratory** is an emerging research facility established in 2025 at Nanjing University Suzhou Campus. Specializing in next-generation aerial robotics, we focus on multi-rotor UAV development, fault-tolerant flight control systems, and intelligent inspection technologies. Our mission is to advance resilient drone architectures for autonomous monitoring applications across critical infrastructure and industrial environments.
         
         <br>
   
