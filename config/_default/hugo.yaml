@@ -3,17 +3,17 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Wowchemy Research Group # Website name
-baseURL: 'https://example.com/' # Website URL
+title: NJU AeroSafe Lab | 南京大学航空安全实验室 # Website name
+baseURL: 'https://nju-aerosafe-lab.github.io/' # Website URL
 
 ############################
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
-hasCJKLanguage: false
+defaultContentLanguage: zh
+hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
-removePathAccents: true
+removePathAccents: false
 
 ############################
 ## ADVANCED

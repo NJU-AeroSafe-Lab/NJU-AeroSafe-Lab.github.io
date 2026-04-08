@@ -1,41 +1,46 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: 周小彬 教授 | Prof. Zhou Xiaobin
 
 # Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+first_name: Xiaobin
+last_name: Zhou
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: 实验室主任 | Lab Director
+  Professor of Aeronautical Engineering
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: 南京大学机器人与自动化学院
+    url: ''
+  - name: Nanjing University College of Aeronautics and Astronautics
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 南京大学航空安全实验室主任，长期从事航空器健康管理、故障预测与健康管理(PHM)、人工智能在航空安全中的应用研究。
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - 航空器健康管理 | Aircraft Health Management
+  - 故障预测与健康管理 | Prognostics and Health Management (PHM)
+  - 人工智能与机器学习 | Artificial Intelligence & Machine Learning
+  - 航空安全系统工程 | Aviation Safety Systems Engineering
+  - 可靠性工程 | Reliability Engineering
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: 博士 - 航空工程 | PhD in Aeronautical Engineering
+      institution: 南京大学 | Nanjing University
+      year: 2010
+    - course: 硕士 - 机械工程 | MSc in Mechanical Engineering
+      institution: 清华大学 | Tsinghua University
+      year: 2006
+    - course: 学士 - 自动化 | BEng in Automation
+      institution: 哈尔滨工业大学 | Harbin Institute of Technology
+      year: 2003
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -44,12 +49,13 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: 'mailto:zhangming@nju.edu.cn'
   - icon: google-scholar
     icon_pack: ai
+    link: https://scholar.google.com/citations?user=EXAMPLE
+  - icon: researchgate
+    icon_pack: ai
+    link: https://www.researchgate.net/profile/EXAMPLE
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab

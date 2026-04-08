@@ -1,33 +1,37 @@
 ---
 # Display name
-title: Alice Wu 吳恩達
+title: 李华 博士 | Dr. Li Hua
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: Hua
+last_name: Li
 
 # Username (this should match the folder name)
 authors:
-  - 吳恩達
+  - 周小彬
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: 研究员 | Research Scientist
+  助理教授 | Assistant Professor
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: 南京大学机器人与自动化学院
+    url: ''
+  - name: Nanjing University College of Robotics and Automation
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 专注于人工智能在航空安全中的应用研究，特别是基于深度学习的故障诊断与预测算法。
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - 深度学习与故障诊断 | Deep Learning & Fault Diagnosis
+  - 时间序列分析 | Time Series Analysis
+  - 航空数据挖掘 | Aviation Data Mining
+  - 机器学习算法 | Machine Learning Algorithms
 
 education:
   courses:
