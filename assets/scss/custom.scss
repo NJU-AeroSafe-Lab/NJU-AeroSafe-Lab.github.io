@@ -1,0 +1,91 @@
+// Responsive helpers for NJU AeroSafe Lab site
+// - Breakpoints, container, fluid typography, media utilities
+// - Tweak variables below to match your theme
+
+$breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px
+);
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1140px
+);
+
+$gutter: 1rem;
+
+// Simple media query mixin: @include mq(md) { ... }
+@mixin mq($key) {
+	$val: map-get($breakpoints, $key);
+	@if $val and $val != 0 {
+		@media (min-width: $val) { @content; }
+	} @else {
+		@content;
+	}
+}
+
+// Container: full width up to breakpoints then constrained
+.container {
+	width: 100%;
+	padding-left: $gutter;
+	padding-right: $gutter;
+	margin-left: auto;
+	margin-right: auto;
+	box-sizing: border-box;
+
+	@include mq(sm) { max-width: map-get($container-max-widths, sm); }
+	@include mq(md) { max-width: map-get($container-max-widths, md); }
+	@include mq(lg) { max-width: map-get($container-max-widths, lg); }
+	@include mq(xl) { max-width: map-get($container-max-widths, xl); }
+}
+
+// Grid helpers: simple responsive grid using CSS Grid
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: $gutter;
+}
+
+// Flex row/column helpers
+.row { display:flex; flex-wrap:wrap; margin-left: -($gutter / 2); margin-right: -($gutter / 2); }
+.col { padding-left: ($gutter / 2); padding-right: ($gutter / 2); flex: 1 1 0%; min-width: 0; }
+
+// Fluid typography: use clamp for smooth scaling
+html { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; }
+body {
+	font-size: clamp(14px, 1.1vw + 12px, 18px);
+	line-height: 1.6;
+	color: #222;
+}
+
+h1 { font-size: clamp(1.6rem, 3.2vw, 2.8rem); margin: 0 0 0.5rem 0; }
+h2 { font-size: clamp(1.4rem, 2.4vw, 2.2rem); margin: 0 0 0.5rem 0; }
+h3 { font-size: clamp(1.2rem, 1.6vw, 1.6rem); margin: 0 0 0.5rem 0; }
+
+// Make images and media responsive
+img, picture, video { max-width: 100%; height: auto; display: block; }
+
+// Responsive embed (16:9)
+.embed-responsive { position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+.embed-responsive > iframe,
+.embed-responsive > video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+// Utility: hide on small, show on large
+.hide-sm { display: none; }
+@include mq(md) { .hide-sm { display: initial; } }
+
+// Small helpers
+.text-center { text-align: center; }
+.muted { color: #666; }
+
+// Example responsive spacing utilities (customize as needed)
+.stack { display: grid; gap: 1rem; }
+.stack-sm { gap: 0.5rem; }
+
+// End of custom responsive helpers
+
