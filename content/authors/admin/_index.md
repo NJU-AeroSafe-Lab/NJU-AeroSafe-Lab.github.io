@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 周小彬 教授 | Prof. Zhou Xiaobin
+title: Prof. Xiaobin Zhou
 
 # Full Name (for SEO)
 first_name: Xiaobin
@@ -10,36 +10,33 @@ last_name: Zhou
 superuser: true
 
 # Role/position
-role: 实验室主任 | Lab Director
-  Professor of Aeronautical Engineering
+role: Lab Director & Professor of Aeronautical Engineering
 
 # Organizations/Affiliations
 organizations:
-  - name: 南京大学机器人与自动化学院
-    url: ''
   - name: Nanjing University College of Aeronautics and Astronautics
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: 南京大学航空安全实验室主任，长期从事航空器健康管理、故障预测与健康管理(PHM)、人工智能在航空安全中的应用研究。
+bio: Director of Nanjing University AeroSafe Laboratory, with extensive research experience in aircraft health management, Prognostics and Health Management (PHM), and AI applications in aviation safety.
 
 interests:
-  - 航空器健康管理 | Aircraft Health Management
-  - 故障预测与健康管理 | Prognostics and Health Management (PHM)
-  - 人工智能与机器学习 | Artificial Intelligence & Machine Learning
-  - 航空安全系统工程 | Aviation Safety Systems Engineering
-  - 可靠性工程 | Reliability Engineering
+  - Aircraft Health Management
+  - Prognostics and Health Management (PHM)
+  - Artificial Intelligence & Machine Learning
+  - Aviation Safety Systems Engineering
+  - Reliability Engineering
 
 education:
   courses:
-    - course: 博士 - 航空工程 | PhD in Aeronautical Engineering
-      institution: 南京大学 | Nanjing University
+    - course: PhD in Aeronautical Engineering
+      institution: Nanjing University
       year: 2010
-    - course: 硕士 - 机械工程 | MSc in Mechanical Engineering
-      institution: 清华大学 | Tsinghua University
+    - course: MSc in Mechanical Engineering
+      institution: Tsinghua University
       year: 2006
-    - course: 学士 - 自动化 | BEng in Automation
-      institution: 哈尔滨工业大学 | Harbin Institute of Technology
+    - course: BEng in Automation
+      institution: Harbin Institute of Technology
       year: 2003
 
 # Social/Academic Networking
@@ -78,6 +75,4 @@ user_groups:
   - Researchers
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.

@@ -17,6 +17,6 @@ en:
 #    description: Site description in Chinese...
 #  menu:
 #    main:
-#      - name: 传
+#      - name: About
 #        url: '#about'
 #        weight: 1

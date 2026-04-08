@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 李华 博士 | Dr. Li Hua
+title: Dr. Hua Li
 
 # Full name (for SEO)
 first_name: Hua
@@ -14,24 +14,21 @@ authors:
 superuser: false
 
 # Role/position
-role: 研究员 | Research Scientist
-  助理教授 | Assistant Professor
+role: Research Scientist & Assistant Professor
 
 # Organizations/Affiliations
 organizations:
-  - name: 南京大学机器人与自动化学院
-    url: ''
   - name: Nanjing University College of Robotics and Automation
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: 专注于人工智能在航空安全中的应用研究，特别是基于深度学习的故障诊断与预测算法。
+bio: Focuses on AI applications in aviation safety, particularly deep learning-based fault diagnosis and prediction algorithms.
 
 interests:
-  - 深度学习与故障诊断 | Deep Learning & Fault Diagnosis
-  - 时间序列分析 | Time Series Analysis
-  - 航空数据挖掘 | Aviation Data Mining
-  - 机器学习算法 | Machine Learning Algorithms
+  - Deep Learning & Fault Diagnosis
+  - Time Series Analysis
+  - Aviation Data Mining
+  - Machine Learning Algorithms
 
 education:
   courses:
@@ -78,6 +75,6 @@ user_groups:
   - Visitors
 ---
 
-吳恩達 is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hua Li is a research scientist focusing on artificial intelligence applications in aviation safety. His research interests include deep learning for fault diagnosis, time series analysis, and machine learning algorithms for aviation data mining.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
