@@ -53,6 +53,8 @@ social:
   - icon: researchgate
     icon_pack: ai
     link: https://www.researchgate.net/profile/EXAMPLE
+  - icon: google-scholar
+    icon_pack: ai
     link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
